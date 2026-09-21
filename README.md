@@ -18,6 +18,12 @@ Prepared for **Chamzat Tambiyev / DogSuppy** · April 2026 · by Danil Sysenko.
 
 **Break-even check:** at €1k/day and CPC €1.45, we need CVR ≥ 3.5%. Baseline assumes 4.2% (a 25% haircut from NL 5.66%). Plan holds even if NO CVR lands 40% below NL.
 
+The chart below is the 4-week Norway ramp this plan proposes: daily spend scaling from €150 to €1,000 while ROAS dips in Week 2 and recovers by Week 3.
+
+![4-week ramp: spend scales, ROAS dips in Week 2, recovers by Week 3](output/ramp.png)
+
+*Modelled, not measured: no Norway campaign has run yet. This is the projection behind "Model the ramp" and "One honest note" below.*
+
 ---
 
 ## Project structure
@@ -59,6 +65,12 @@ Rule-based regex classifier over Dutch search terms into six buckets. Hierarchy 
 | Broad dog context | 508 | €6,881 | €15,087 | 2.19× | €1.54 | 5.4% |
 | Branded own (Beemzy) | 23 | €3,366 | €8,424 | 2.50× | €1.37 | 5.2% |
 | Competitor (Plaque Off, Orozyme…) | 231 | €3,134 | €5,564 | 1.78× | €1.86 | 5.3% |
+
+The same numbers, visualised: NL spend share by cluster on the left, NL ROAS by cluster against the 1.5× Norway target on the right.
+
+![Left: NL spend share by cluster. Right: NL ROAS by cluster, competitor cluster highlighted as the weakest performer.](output/cluster_performance.png)
+
+*Measured: NL search-term performance, 6 months, €63,149 total spend across 2,993 unique terms.*
 
 **Key finding: Solution + Problem together drive 67% of NL spend and 74% of NL revenue, both at 2.87×+ ROAS.** That's the template for Norway.
 
