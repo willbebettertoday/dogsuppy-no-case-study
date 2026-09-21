@@ -1,4 +1,4 @@
-# Dental Bright → Norway — Case Study
+# Dental Bright → Norway (NO) — Case Study
 
 Three Google Search Ads campaigns to take DogSuppy's **Dental Bright** from €0 in Norway to **€1k/day at 1.5× ROAS** in four weeks, derived from 6 months of NL search term performance.
 
@@ -20,7 +20,7 @@ Prepared for **Chamzat Tambiyev / DogSuppy** · April 2026 · by Danil Sysenko.
 
 ---
 
-## Repo contents
+## Project structure
 
 ```
 .
@@ -111,7 +111,7 @@ Everything else — search-term harvesting, feed generation, multi-market transl
 
 ---
 
-## Reproducing the analysis
+## Reproduce it
 
 ```bash
 pip install pandas numpy matplotlib jupyter
@@ -127,3 +127,9 @@ The notebook loads `data/nl_search_terms.csv`, rebuilds the cluster classifier, 
 Everything downstream of Week 1 is a model built on NL→NO extrapolation. The Norway CPC and CVR assumptions are directional; the first seven days of real data will shift them. The plan is designed to be cheap to be wrong about — €150/day for Week 1, kill criteria explicit, DSA catching what translation misses. The target 1.5× ROAS has a safety buffer even if NO CVR comes in 40% below NL.
 
 If we disagree on an assumption, I'd rather hear it now than debug it in Week 3.
+
+---
+
+## License
+
+MIT. See [LICENSE](LICENSE).
